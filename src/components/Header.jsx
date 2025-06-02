@@ -8,7 +8,7 @@ import './FrontStyle.css';
         
         <ul>  
          <l1></l1>         
-            <li><p><img src="/front-end/img/reedlogo.png" className="App-logo" alt="logo" width={300} /> </p> </li>      
+            <li><p><img src="/img/reedlogo.png" className="App-logo" alt="logo" width={300} /> </p> </li>      
             <h1></h1>
         <li><h1>Redeemer's University</h1></li>
         </ul>
