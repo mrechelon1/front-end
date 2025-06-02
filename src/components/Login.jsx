@@ -15,7 +15,7 @@ function Login() {
     const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const response = await axios.post('http:///127.0.0.1:8000/token', {
+        const response = await axios.post('https://fastapi-app-2w5a.onrender.com/token/', {
           username: username,
           password: password,
         }, {
