@@ -20,7 +20,7 @@ function RegForm() {
   const handleSubmit = async (event) => {
             event.preventDefault();
             try {
-                const response = await fetch('http://127.0.0.1:8000/new_user/', {
+                const response = await fetch('https://fastapi-app-2w5a.onrender.com/new_user/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
