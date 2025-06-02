@@ -21,7 +21,7 @@ function NavBar() {
     <nav>
       <ul>
         <li>
-          <Link to="/front-end">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about">All Users</Link>
