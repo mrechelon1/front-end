@@ -27,7 +27,7 @@ function UserUpdate () {
       useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await fetch(`http://127.0.0.1:8000/profile/${userid}`);
+            const response = await fetch(`https://fastapi-app-2w5a.onrender.com/profile/${userid}`);
             if (!response.ok) {
               throw new Error('Network response was not ok');
             }           
@@ -51,7 +51,7 @@ function UserUpdate () {
     
         const handleSubmit = (e) => {
             e.preventDefault();
-            axios.put(`http://127.0.0.1:8000/updateuser/${userid}`, formData)
+            axios.put(`https://fastapi-app-2w5a.onrender.com/updateuser/${userid}`, formData)
                 .then(response => {
                     console.log('User updated:', response.data);
                     alert('User Updated successfully');
