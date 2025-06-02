@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
   //fetch DB
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:8000/users');
+      const response = await axios.get('https://fastapi-app-2w5a.onrender.com/users/');
       setItems(response.data);
     } catch (error) {
       console.error("Error fetching data:", error);
