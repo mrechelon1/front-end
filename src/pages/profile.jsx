@@ -14,7 +14,7 @@ function ProfilePage(){
   useEffect(() => {
     const fetchProfileData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/protected', {
+        const response = await axios.get('https://fastapi-app-2w5a.onrender.com/protected/', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
