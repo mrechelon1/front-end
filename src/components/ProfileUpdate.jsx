@@ -27,7 +27,7 @@ function UserUpdate () {
       useEffect(() => {
         const fetchData = async () => {
           try {
-        const response = await axios.get('http://localhost:8000/protected', {
+        const response = await axios.get('https://fastapi-app-2w5a.onrender.com/protected/', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -56,7 +56,7 @@ function UserUpdate () {
         e.preventDefault();
         try {
            
-            const response = await axios.put(`http://127.0.0.1:8000/updateprofile`, formData, {
+            const response = await axios.put(`https://fastapi-app-2w5a.onrender.com/updateprofile/`, formData, {
              headers: { Authorization: `Bearer ${token}` },
              });
             console.log('Profile updated:', response.data);
