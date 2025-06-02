@@ -1,0 +1,273 @@
+/* Footer style */
+.footer {
+  background-size: cover;
+
+  background: linear-gradient(
+    84deg,
+    #8b4141 -56.93%,
+    #000 120.12%,
+    #2757d4 120.12%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+ 
+  width: 100%;
+  height: 60%;
+}
+
+.container {
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  margin-right: -50px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  margin-top: 40px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links {
+  margin-top: -20px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/* Header style */
+.header{ 
+    height: 90px;
+    background-color: navy;
+    background: linear-gradient(
+      84deg,
+      #10011b -56.93%,
+      #523899 120.12%,
+      #8c95aa 120.12%
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  
+  .header ul {
+    list-style: none;
+    margin-top: -10px;;
+    margin-right: 0px;;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    vertical-align: auto;
+  }
+  
+  .header li a {
+    margin-top: 0px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+  @media (max-width: 960px) and (min-width: 501px) {
+    .header li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+  }
+  
+  @media (max-width: 500px) {
+    .header li { width: 100%; } /* On small screens, show one logo per row */
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+/* Login Style */
+   /* Bordered form */
+ form {
+    border: 3px solid #f1f1f1;
+    margin: auto;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    float: right;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #3e0485;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #680a04;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 20px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  } 
+
+  /* Nav style */
+  nav {
+    background-color: #f0f0f0;
+    padding: 16px;
+    margin-top: -32px;
+  }
+  .bt{
+    background-color: red;
+    padding: 12px 16px;
+  }
+  .bt2{
+    background-color: rgb(2, 78, 34);
+    padding: 12px 16px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+ /* Reg For */
+  .contain{
+    max-width: 90%;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+    margin-top:-30px
+    
+  }
+  .contain2{
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+   
+  }
+  .contain3{
+    width: 500px;
+    padding: 50px;
+   
+   
+  }
