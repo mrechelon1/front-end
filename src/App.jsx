@@ -25,7 +25,7 @@ function App() {
           <h1>Vite + React + FastAPI</h1>
         <div className='login'>
           <ul>
-            <li><img src="/front-end/img/reed.png" className="App-logo" alt="logo" width={600} /></li>
+            <li><img src="/img/reed.png" className="App-logo" alt="logo" width={600} /></li>
             <li><Login /></li>
           </ul>
         </div>       
