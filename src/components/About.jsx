@@ -28,7 +28,7 @@ import { Link } from 'react-router-dom';
       if (isConfirmed) {
         // Rest of your code
     
-        const response = await fetch(`http://localhost:8000/del_users/${id}`, {
+        const response = await fetch(`https://fastapi-app-2w5a.onrender.com/del_users/${id}`, {
             method: 'DELETE',
         });
 
